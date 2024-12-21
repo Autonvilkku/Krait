@@ -1,6 +1,6 @@
 [package]
 name = "krait-engine"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Autonvilkku"]
 description = " A game engine that I'm working on."
 edition = "2021"
