@@ -1,0 +1,9 @@
+[package]
+name = "krait-engine"
+version = "0.1.0"
+authors = ["Autonvilkku"]
+description = " A game engine that I'm working on."
+edition = "2021"
+license = "GPL-3.0-only"
+
+[dependencies]
