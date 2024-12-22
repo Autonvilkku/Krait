@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "krait-engine"
-version = "0.1.2"
+name = "krait"
+version = "0.1.5"
