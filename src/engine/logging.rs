@@ -21,6 +21,8 @@ pub struct Log {
 /// This function logs a message to the console.
 /// the message printed to the console is this:
 /// "[File: <file name>, Line: <line number>, Column: <column number>] <message>"
+/// Log level is used to define the priority and the color of the message.
+/// color is not yet available!
 #[track_caller]
 pub fn log_message(engine: &mut Engine, message: &str, log_level: LogLevel) {
     let location = Location::caller();
