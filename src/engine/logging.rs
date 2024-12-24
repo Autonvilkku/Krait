@@ -3,7 +3,7 @@ use std::panic::Location;
 
 /// # LogLevel
 /// This enum is used to determine the color and priority of the log message.
-/// ## ⚠️**Engine shouldn't be used by the user! Addons can use it but sparingly.**
+/// ## ⚠️**Engine loglevel shouldn't be used by the user! Addons can use it but sparingly.**
 pub enum LogLevel {
     Info,
     Warning,
